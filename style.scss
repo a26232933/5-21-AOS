@@ -43,6 +43,7 @@ nav{
 }
 
 @mixin section-box {
+    overflow: hidden;
     display: grid;
    grid-template-columns: repeat(2, 1fr);
 
@@ -78,4 +79,10 @@ nav{
         margin:20px;
         padding: 20px;
     }
+}
+footer {
+    text-align: center;
+    margin-top: 100px;
+    padding: 80px 0;
+    color: $color-black-33;
 }
